@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardBackgroundColor="@color/colorSurface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tv_pod_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pod-name"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/colorTextPrimary" />
+
+        <TextView
+            android:id="@+id/tv_pod_namespace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="namespace: default"
+            android:textColor="@color/colorTextSecondary" />
+
+        <TextView
+            android:id="@+id/tv_pod_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Running"
+            android:textStyle="bold"
+            android:textColor="@color/colorStatusOk" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

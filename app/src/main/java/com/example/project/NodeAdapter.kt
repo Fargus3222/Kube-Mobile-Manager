@@ -1,5 +1,6 @@
 package com.example.project
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -29,6 +30,13 @@ class NodeAdapter(
         holder.tvRoles.text = "roles: ${item.roles}"
         holder.tvStatus.text = item.status
         holder.tvUsage.text = item.usage
+
+        holder.itemView.setOnClickListener {
+            val ctx = it.context
+            val intent = Intent(ctx, NodeDetailsActivity::class.java)
+            intent.putExtra("node_name", item.name)
+            ctx.startActivity(intent)
+        }
     }
 
     override fun getItemCount(): Int = items.size
