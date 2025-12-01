@@ -54,7 +54,7 @@
 
         <!-- обзор кластера -->
         <activity
-            android:name=".ClusterOverviewActivity"
+            android:name=".ClusterOverview"
             android:exported="false" />
 
     </application>
