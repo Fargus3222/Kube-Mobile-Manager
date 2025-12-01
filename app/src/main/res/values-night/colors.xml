@@ -1,0 +1,19 @@
+<resources>
+    <!-- Основные -->
+    <color name="colorPrimary">#64B5F6</color>      <!-- тот же светло-синий -->
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorOnPrimary">#000000</color>
+
+    <!-- Фон и поверхности -->
+    <color name="colorBackground">#121212</color>   <!-- тёмно-серый / почти чёрный -->
+    <color name="colorSurface">#1E1E1E</color>      <!-- тёмно-серый для карточек -->
+
+    <!-- Текст -->
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextSecondary">#BDBDBD</color>
+
+    <!-- Статусы -->
+    <color name="colorStatusOk">#81C784</color>
+    <color name="colorStatusWarning">#FFD54F</color>
+    <color name="colorStatusError">#E57373</color>
+</resources>
