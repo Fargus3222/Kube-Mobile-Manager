@@ -19,4 +19,9 @@
         <!-- MaterialComponents -->
         <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button</item>
     </style>
+
+
+    <style name="Theme.KubeManager.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
 </resources>
